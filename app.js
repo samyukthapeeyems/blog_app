@@ -4,6 +4,7 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const blogRoutes = require('./routes/blogRoutes');
 require('dotenv').config();
+const swal = require('sweetalert');
 const multer = require('multer');
 const upload = multer({
     dest: './public/images'
@@ -66,7 +67,7 @@ app.use((req, res) => {
 });
 
 //listen for requests
-app.listen(5500, () => {
+app.listen(3000, () => {
     console.log('server started..');
 });
 
