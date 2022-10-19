@@ -21,15 +21,15 @@ p{
 }
 
 ul{
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 nav{
-    height: 15vh;
+    height: 12vh;
     background: #030036;
-    border-bottom: 0.5px solid #f8f7f7;
+    border-bottom: 2px solid #f8f7f7;
+    border-radius: 0 0 0 60%;
     margin-bottom: 60px;
-    padding-bottom: 10px;
 
 }
 
@@ -74,8 +74,9 @@ footer{
     display: block;
     margin: 40px 0;
     padding-left: 30px;
-    border-left: 6px solid crimson;
+    border-left: 10px solid rgb(20, 197, 220);
 }
+
 .blogs a:hover h3{
     color: crimson;
 }
