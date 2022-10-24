@@ -2,6 +2,8 @@
     <%- include("./partials/head.ejs") %>
 
     <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
         <%- include("./partials/nav.ejs") %>
 
         <div class="blogs content">
@@ -15,6 +17,7 @@
                       </a>
                 <% }) %>
             <% } else{ %>
+                <%swal("Hello world!");%>
             <p>There are no blogs...</p>
             
               
@@ -23,6 +26,7 @@
 
         <%- include("./partials/footer.ejs") %>
         <script type="text/javascript" src="/script.js"></script>
+
 
     </body>
 </html>
